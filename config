@@ -1,0 +1,27 @@
+Database connection could not be established for:
+   DB2 z/OS
+
+An error occurred while establishing the connection:
+
+Long Message:
+[jcc][t4][2043][11550][4.28.11] Undantag java.net.ConnectException: Fel när sockeln öppnades till servern localhost/127.0.0.1 på port 50 000 med meddelandet: Connection refused: connect. ERRORCODE=-4499, SQLSTATE=08001
+
+Details:
+   Type: com.ibm.db2.jcc.am.DisconnectNonTransientConnectionException
+   Error Code: -4499
+   SQL State: 08001
+
+System Information:
+Product: DbVisualizer Free 13.0.3 (build: 3265)
+OS: Windows 10
+OS Version: 10.0
+OS Arch: amd64
+Java Version: 11.0.14
+Java VM: OpenJDK 64-Bit Server VM
+Java Vendor: Eclipse Adoptium
+Java Home: c:\users\mohanbed\documents\dbvisualizer\jre
+DbVis Home: C:\Users\mohanbed\Documents\DbVisualizer
+User Home: C:\Users\mohanbed
+PrefsDir: C:\Users\mohanbed\.dbvis
+SessionId: 481
+BindDir: null
